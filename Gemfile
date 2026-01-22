@@ -10,7 +10,7 @@ gem "font-awesome-sass", "~> 6.1"
 
 gem "simple_form"
 
-gem "sassc-rails"
+gem "cloudinary"
 
 gem "sassc-rails"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -56,6 +56,8 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
+  # for keys
+  gem "dotenv-rails"
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
 end
