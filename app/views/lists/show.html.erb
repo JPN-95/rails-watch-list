@@ -3,8 +3,7 @@
   <%= link_to "Add Movie!", new_list_bookmark_path(@list.id), class: "btn btn-primary"%>
   <%= link_to "Home", lists_path, class: "btn btn-primary" %>
 </div>
-<%= cl_image_tag("cld-sample-4",
-      width: 400, height: 300, crop: :fill) %>
+
 <div class="list-cards">
   <% if @list.bookmarks.count > 0 %>
     <% @list.bookmarks.each do |bookmark| %>
