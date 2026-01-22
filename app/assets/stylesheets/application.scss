@@ -10,3 +10,53 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.logo-link:visited {
+  color: inherit;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.list-cards {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 300px));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.card-img-top{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.list-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.list-navbar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 10px;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+}
